@@ -1,0 +1,57 @@
+#about{
+    padding: 70px;
+    background-color: rgb(255, 246, 253);
+}
+
+.about-h{
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.a1-img{
+    height: 300px;
+    width: 470px;
+    margin-bottom: 80px;
+}
+
+.review-item {
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: left;
+    border: none;
+  }
+  
+.review-item:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+  }
+  
+.userimg{
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.reviewer-details {
+    flex-grow: 1;
+  }
+
+.rating {
+    margin-bottom: 10px;
+  }
+  
+.review-text {
+    margin-bottom: 10px;
+  }
+  
+.reviewer-name {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+  }

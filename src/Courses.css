@@ -1,0 +1,47 @@
+#courses{
+    padding: 70px;
+    text-align: center;
+    background-color: rgb(230, 255, 255);
+}
+
+
+.catalog-cell {
+    padding: 20px;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catalog-cell:hover{
+    cursor: pointer;
+    transform: scale(1.005);
+}
+  
+.catalog-image {
+    margin-bottom: 16px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.catalog-cell p{
+    font-style: italic;
+}
+
+.catalog-cell a{
+    color: black;
+    text-decoration: underline;
+}
+
+.catalog-cell a:hover{
+    color: blue;
+}

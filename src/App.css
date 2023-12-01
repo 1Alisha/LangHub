@@ -1,0 +1,42 @@
+.content{
+  padding-top: 60px;
+}
+
+#home {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(230, 255, 255);
+  
+}
+
+.himg{
+  height: 350px;
+  width: 550px;
+  margin-top: -23px;
+}
+
+.h{
+  text-align: left;
+}
+
+.p{
+  font-size: 18px;
+  text-align: left;
+}
+
+.hbtn{
+  background-color: #ba4531;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 350px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.hbtn:hover{
+  cursor: pointer;
+  background-color: #ca5945;
+  transform: scale(1.01);
+}

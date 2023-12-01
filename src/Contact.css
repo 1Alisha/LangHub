@@ -1,0 +1,37 @@
+#contact{
+    padding: 70px;
+    background-color: rgb(255, 246, 253);
+}
+
+.contact form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .contact form label {
+    font-weight: bold;
+  }
+  
+  .contact form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact form button {
+    background-color: #333;
+    color: white;
+    width: 25%;
+  }
+  
+  .contact form button:hover {
+    background-color: #4a4a4a;
+    cursor: pointer;
+  }
+
+  .cimg{
+    height: 500px;
+    width: 550px;
+    float: right;
+  }
+  
